@@ -29,7 +29,7 @@ var height=saveData.world.HeightInCells;
 var data=saveData.world.streamed[1][1];// 
  
 
-
+// 生成图片预览.
 var coder = require("bmp-js");
 
 var rawData = coder.encode({data: Buffer.from(data),width,height})

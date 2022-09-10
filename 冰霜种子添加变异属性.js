@@ -22,7 +22,7 @@ function saveFile(fileName, save) {
 const saveData = loadFile(fileName);
  
  
-const seeds2=saveData.gameObjects.find(x=>x.name==="ColdWheatSeed");
+const seeds2=saveData.gameObjects.find(x=>x.name==="ColdWheatSeed");// 冰霜种子.
 for(const seed of seeds2.gameObjects){
     const mutantKey=seed.behaviors.find(x=>x.name=== "MutantPlant")  //找变异属性
     mutantKey.templateData.mutationIDs=['rottenHeaps'] ;//添加旺盛属性
