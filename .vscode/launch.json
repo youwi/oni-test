@@ -4,6 +4,15 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+    {
+        "name": "La冰霜种子添加变异属性am",
+        "program": "${workspaceFolder}/冰霜种子添加变异属性.js",
+        "request": "launch",
+        "skipFiles": [
+            "<node_internals>/**"
+        ],
+        "type": "node"
+    },
         {
             "name": "staeamed",
             "program": "${workspaceFolder}/全图黑测试1.js",
@@ -11,7 +20,7 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "type": "pwa-node"
+            "type": "node"
         },
         {
             "name": "2测试",
@@ -19,12 +28,12 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "type": "pwa-node",
+            "type": "node"
             "program": "${workspaceFolder}\\Test21.js"
         },
  
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "一测试",
             "skipFiles": [

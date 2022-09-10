@@ -27,14 +27,14 @@ var width=saveData.world.WidthInCells;
 var height=saveData.world.HeightInCells;
  
 for(var arrFa of saveData.world.streamed){
-    if(arrFa[0]==="Camera") break;
+    if(arrFa[0]==="Camera") continue;
     var buff=arrFa[1];
     for(var i=0;i<buff.length;i++ ){
         buff[i]=255;
     }
 
 }
- 
+ //经过测试全部修改为255也没有效果
 // Dust Meteor  Iron Meteors  Copper Meteors	 Gold Meteors	 White Comet  Rock Meteor
 saveFile(`${fileName}-tweaked`, saveData);
 console.log("完成")
