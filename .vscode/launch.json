@@ -23,13 +23,13 @@
             "type": "node"
         },
         {
-            "name": "2测试",
+            "name": "Test位图预览",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "type": "node"
-            "program": "${workspaceFolder}\\Test21.js"
+            "type": "node",
+            "program": "${workspaceFolder}\\Test位图预览.mjs"
         },
  
         {

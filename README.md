@@ -18,4 +18,10 @@ https://blog.csdn.net/gogcc/article/details/126775361
     bonusLice
     sunnySpeed
 
+# 星球坐标
+ 120度角
+
+0/behaviors/HarvestablePOIClusterGridEntity/templateData/m_location
+
+
 有空再整理
