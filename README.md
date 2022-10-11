@@ -17,6 +17,16 @@ https://blog.csdn.net/gogcc/article/details/126775361
     slowBurn
     bonusLice
     sunnySpeed
+    	public PlantMutation moderatelyLoose;
+		public PlantMutation moderatelyTight;
+		public PlantMutation extremelyTight;超专化
+		public PlantMutation bonusLice;米虱
+		public PlantMutation sunnySpeed;绿叶
+		public PlantMutation slowBurn; 野化
+		public PlantMutation blooms; 盛开
+		public PlantMutation loadedWithFruit; 富饶
+		public PlantMutation heavyFruit;  硕果
+		public PlantMutation rottenHeaps;
 
 # 星球坐标
  120度角
