@@ -16,12 +16,13 @@ for(let i=0;i<ass.gameObjects.length;i++){
         //删除
         ass.gameObjects.splice(i,1);
         console.log( "删除了" )
+        i--;
     }else{
         console.log( name )
     }
-    i--;
+     
 }
-saveFile("删除asteroid.sav");
+saveFile("删除asteroid",saveData);
 console.log("完成")
 
 
