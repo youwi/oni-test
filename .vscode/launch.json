@@ -4,10 +4,20 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Test删除星球",
+            "request": "launch",
+            "program": "${workspaceFolder}/Test删除星球.mjs",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+
 
     {
         "name": "La冰霜种子添加变异属性am",
-        "program": "${workspaceFolder}/冰霜种子添加变异属性.js",
+        "program": "${workspaceFolder}/Test冰霜种子添加变异属性.mjs",
         "request": "launch",
         "skipFiles": [
             "<node_internals>/**"
@@ -16,7 +26,7 @@
     },
         {
             "name": "staeamed",
-            "program": "${workspaceFolder}/全图黑测试1.js",
+            "program": "${workspaceFolder}/全图黑测试1.mjs",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
